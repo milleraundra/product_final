@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Product Purchase</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="placement">
+        <h1>Product Purchase</h1>
+        <p>Please fill out the following form to create your order.</p>
+        <div id="blanks">
+          <form class="">
+            <div class="form-group">
+              <label for="firstname">First Name:</label>
+              <input id="firstname"type="text" name="name" value="">
+            </div>
+
+            <div class="form-group">
+              <label for="lastname">Last Name:</label>
+              <input id="lastname" type="text" name="name" value="">
+            </div>
+
+            <div class="form-group">
+              <label for="address">Full Address:</label>
+              <input id="address" type="text" name="name" value="">
+            </div>
+            <button type="submit" class="btn">Place Order</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div id="receipt">
+        <h2>Thank you for your purchase!</h2>
+        <h3>Here is your receipt:</h3>
+        <p>First Name: <span class="firstname"></span></p>
+        <p>Last Name: <span class="lastname"></span></p>
+        <p>Address: <span class="address"></span></p>
+      </div>
+
+    </div>
+  </body>
+</html>
